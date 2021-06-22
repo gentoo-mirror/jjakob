@@ -1,0 +1,8 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+mail-mta/dma:mta - Enable this to install as system-wide MTA
+net-p2p/monero-gui:hw-wallet - Trezor support compilation
+net-p2p/monero-gui:password-strength-meter - Enable zxcvbn library for password strength
+net-p2p/monero-gui:qrcode - Enable webcam QR scanner
