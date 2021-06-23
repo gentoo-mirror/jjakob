@@ -3,6 +3,13 @@
 # * generated automatically using pmaint *
 
 mail-mta/dma:mta - Enable this to install as system-wide MTA
+net-libs/webkit-gtk:egl - Enable EGL support
+net-libs/webkit-gtk:gamepad - Enable gamepad support via dev-libs/libmanette
+net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
+net-libs/webkit-gtk:gles2-only - Use GLES 2.0 or later instead of full OpenGL
+net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
+net-libs/webkit-gtk:media-source - Enable support for Media Sources Extension (requires gstreamer 1.16+)
+net-libs/webkit-gtk:seccomp - Enable sandboxing functionality through sys-apps/bubblewrap
 net-p2p/monero-gui:hw-wallet - Trezor support compilation
 net-p2p/monero-gui:password-strength-meter - Enable zxcvbn library for password strength
 net-p2p/monero-gui:qrcode - Enable webcam QR scanner

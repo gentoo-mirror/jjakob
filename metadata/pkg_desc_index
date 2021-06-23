@@ -1,3 +1,4 @@
 mail-mta/dma 0.13 9999: Dragonfly Mail Agent
+net-libs/webkit-gtk 2.32.0 2.32.1 2.33.1: Open source web browser engine
 net-p2p/monero-gui 0.17.2.2: GUI for net-p2p/monero
 virtual/mta 1-r2: Virtual for Message Transfer Agents
