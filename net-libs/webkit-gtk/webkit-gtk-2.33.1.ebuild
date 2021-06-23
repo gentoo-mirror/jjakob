@@ -241,10 +241,13 @@ src_configure() {
 		opengl_enabled=OFF
 	fi
 
-	local use_soup_2=OFF
-	if has_version "net-libs/libsoup:2.4"; then
+	# XXX libsoup:3 doesn't exist yet so this is only an assumption
+	local use_soup_2
+	if has_version "net-libs/libsoup:3"; then
+		use_soup_2=OFF
+	elif has_version "net-libs/libsoup:2.4"; then
 		use_soup_2=ON
-	elif ! has_version "net-libs/libsoup:3"; then
+	else
 		die "No suitable net-libs/libsoup version found"
 	fi
 
