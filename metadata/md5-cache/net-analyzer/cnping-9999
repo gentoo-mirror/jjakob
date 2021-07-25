@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=x11-libs/libXinerama
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=8d15be1cc2eb8219d5964798bb237fb9
+_md5_=07442836316148c6f77b5d87813e971a
