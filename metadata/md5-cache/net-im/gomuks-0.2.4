@@ -1,0 +1,15 @@
+BDEPEND=>=dev-lang/go-1.10 >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install test unpack
+DEPEND=encryption? ( >=dev-libs/olm-3 )
+DESCRIPTION=A terminal based Matrix client written in Go
+EAPI=7
+HOMEPAGE=https://github.com/tulir/gomuks
+INHERIT=golang-build go-module
+IUSE=+encryption
+LICENSE=AGPL-3
+RDEPEND=encryption? ( >=dev-libs/olm-3 )
+RESTRICT=strip strip
+SLOT=0
+SRC_URI=https://github.com/tulir/gomuks/archive/v0.2.4.tar.gz -> gomuks-0.2.4.tar.gz
+_eclasses_=golang-base	b8fb27dacacea08140c53857f439fc7d	golang-build	f037bca330974d0c1a23c7390ddcba09	go-module	82631624a3653e595cf9c18164a8c500
+_md5_=ca630ddb483d1483a024f7b5f98ef1ed
