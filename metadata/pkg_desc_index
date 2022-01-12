@@ -1,7 +1,7 @@
 dev-libs/olm 3.2.4 9999: An implementation of a well known cryptographic ratchet in C++
 mail-mta/dma 0.13 9999: Dragonfly Mail Agent
 net-analyzer/cnping 9999: Minimal Graphical IPV4 Ping Tool by CNLohr
-net-im/gomuks 0.2.4 0.2.4_p20211207 9999: A terminal based Matrix client written in Go
+net-im/gomuks 0.2.4 0.2.4_p20211207: A terminal based Matrix client written in Go
 net-libs/webkit-gtk 2.32.0 2.32.1 2.33.1 2.33.2: Open source web browser engine
 net-p2p/monero-gui 0.17.2.2 0.17.2.2-r1 0.17.2.3 0.17.3.0: GUI for net-p2p/monero
 virtual/mta 1-r2: Virtual for Message Transfer Agents
