@@ -1,3 +1,4 @@
+app-misc/trezor 0.13.0: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/olm 3.2.4 3.2.9 9999: An implementation of a well known cryptographic ratchet in C++
 mail-mta/dma 0.13 9999: Dragonfly Mail Agent
 net-analyzer/cnping 1.0.0_p20210404 9999: Minimal Graphical IPV4 Ping Tool by CNLohr

@@ -2,6 +2,9 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-misc/trezor:extra - Support setting the homescreen image
+app-misc/trezor:hidapi - Support setting up brand new firmware-less Trezor One
+app-misc/trezor:qt5 - Support PIN widgets PinMatrixWidget, PinButton
 mail-mta/dma:mta - Enable this to install as system-wide MTA
 net-im/gomuks:encryption - Enable end-to-end encryption support via dev-libs/olm
 net-libs/webkit-gtk:egl - Enable EGL support
