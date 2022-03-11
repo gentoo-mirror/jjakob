@@ -1,11 +1,11 @@
 BDEPEND=test? ( >=dev-python/bitbox02-5.3.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/ecdsa-0.13.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/hidapi-0.7.99[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/libusb1-1.7.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/mnemonic-0.18.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/pyaes-1.6.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/typing-extensions-3.7.4.1[python_targets_python3_8(-)?,python_targets_python3_9(-)?] qt5? ( >=dev-python/pyside2-5.14.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] <dev-python/pyside2-6 ) dev-python/unittest-or-fail[python_targets_python3_8(-)?,python_targets_python3_9(-)?] ) doc? ( || ( ( >=dev-lang/python-3.9.9-r1:3.9 dev-python/sphinx[python_targets_python3_9(-)] dev-python/sphinx_rtd_theme[python_targets_python3_9(-)] dev-python/sphinxcontrib-autoprogram[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.12_p1-r1:3.8 dev-python/sphinx[python_targets_python3_8(-)] dev-python/sphinx_rtd_theme[python_targets_python3_8(-)] dev-python/sphinxcontrib-autoprogram[python_targets_python3_8(-)] ) ) ) python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) >=dev-python/installer-0.4.0_p20220124[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/tomli-1.2.3[python_targets_python3_8(-)?,python_targets_python3_9(-)?] dev-python/poetry-core[python_targets_python3_8(-)?,python_targets_python3_9(-)?] virtual/pkgconfig
-DEFINED_PHASES=compile configure install prepare test
+DEFINED_PHASES=compile configure install prepare setup test
 DESCRIPTION=Library and command line tool for interacting with hardware wallets
 EAPI=8
 HOMEPAGE=https://github.com/bitcoin-core/HWI
 INHERIT=distutils-r1 udev
 IUSE=udev qt5 test doc python_targets_python3_8 python_targets_python3_9
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=dev-python/bitbox02-5.3.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/ecdsa-0.13.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/hidapi-0.7.99[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/libusb1-1.7.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/mnemonic-0.18.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/pyaes-1.6.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/typing-extensions-3.7.4.1[python_targets_python3_8(-)?,python_targets_python3_9(-)?] qt5? ( >=dev-python/pyside2-5.14.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] <dev-python/pyside2-6 ) python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 )
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/bitcoin-core/HWI/archive/3fe369d0379212fae1c72729a179d133b0adc872.tar.gz -> hwi-2.0.2_p20220228.tar.gz
 _eclasses_=multibuild	d79bd5b4bc4edcb1f5bc19591f8d4714	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	d3d7da5aff94a677154819e0cb95ee36	python-r1	bcd408f1e4a9669198ef4dfcd5ab8696	distutils-r1	d540d96908dd5622f3dfa41d167e632d	udev	2d229ad4bfa09058e0184b1ca900db32
-_md5_=adba966d3b1336c5de4ae3bbaa5114f4
+_md5_=d33b9b0666085356ce6bbca49532f2d5
