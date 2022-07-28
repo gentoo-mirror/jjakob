@@ -9,6 +9,11 @@ dev-libs/openpace:go - Add support/bindings for the Go language
 dev-libs/openpace:java - Add support/bindings for the Java language
 dev-libs/openpace:python - Add support/bindings for the Python language
 dev-libs/openpace:ruby - Add support/bindings for the Ruby language
+dev-libs/opensc:ctapi - Use CT-API for accessing Smartcard hardware
+dev-libs/opensc:notify - Enable notifications
+dev-libs/opensc:openct - Use dev-libs/openct (and CT-API) for accessing Smartcard hardware
+dev-libs/opensc:pcsc-lite - Use sys-apps/pcsc-lite (and PC/SC API) for accessing Smartcard hardware
+dev-libs/opensc:secure-messaging - Enable secure messaging
 mail-mta/dma:mta - Enable this to install as system-wide MTA
 net-im/gomuks:encryption - Enable end-to-end encryption support via dev-libs/olm
 net-libs/webkit-gtk:egl - Enable EGL support
