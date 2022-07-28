@@ -5,6 +5,10 @@
 app-misc/trezor:extra - Support setting the homescreen image
 app-misc/trezor:hidapi - Support setting up brand new firmware-less Trezor One
 app-misc/trezor:qt5 - Support PIN widgets PinMatrixWidget, PinButton
+dev-libs/openpace:go - Add support/bindings for the Go language
+dev-libs/openpace:java - Add support/bindings for the Java language
+dev-libs/openpace:python - Add support/bindings for the Python language
+dev-libs/openpace:ruby - Add support/bindings for the Ruby language
 mail-mta/dma:mta - Enable this to install as system-wide MTA
 net-im/gomuks:encryption - Enable end-to-end encryption support via dev-libs/olm
 net-libs/webkit-gtk:egl - Enable EGL support
