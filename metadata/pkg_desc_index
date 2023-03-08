@@ -3,7 +3,7 @@ dev-libs/openpace 1.1.2: Cryptographic library for EAC version 2
 dev-libs/opensc 0.22.0: Libraries and applications to access smartcards
 dev-python/hwi 2.0.2_p20220228: Library and command line tool for interacting with hardware wallets
 mail-mta/dma 0.13 9999: Dragonfly Mail Agent
-net-analyzer/cnping 1.0.0_p20210404 9999: Minimal Graphical IPV4 Ping Tool by CNLohr
+net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr
 net-im/gomuks 0.3.0 0.3.0_p20230115: A terminal based Matrix client written in Go
 net-p2p/monero-gui 0.17.2.2 0.17.2.2-r1 0.17.2.3 0.17.3.0 0.17.3.1: GUI for net-p2p/monero
 virtual/mta 1-r2: Virtual for Message Transfer Agents
