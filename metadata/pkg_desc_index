@@ -1,5 +1,4 @@
 app-misc/trezor 0.13.0: Python library and command-line client for Trezor Hardware Wallet
-dev-libs/olm 3.2.4 3.2.9 9999: An implementation of a well known cryptographic ratchet in C++
 dev-libs/openpace 1.1.2: Cryptographic library for EAC version 2
 dev-libs/opensc 0.22.0: Libraries and applications to access smartcards
 dev-python/hwi 2.0.2_p20220228: Library and command line tool for interacting with hardware wallets
