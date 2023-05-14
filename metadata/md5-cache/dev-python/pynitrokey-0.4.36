@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_targets_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/flit_core-3.8.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst postrm prepare test
+DESCRIPTION=A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
+EAPI=8
+HOMEPAGE=https://github.com/Nitrokey/pynitrokey
+INHERIT=distutils-r1 udev
+IUSE=udev python_targets_python3_10 python_targets_python3_11
+KEYWORDS=~amd64
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=>=dev-python/certifi-14.5.15[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/cffi[python_targets_python3_10(-)?,python_targets_python3_11(-)?] =dev-python/click-8*[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/cryptography-39[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/ecdsa[python_targets_python3_10(-)?,python_targets_python3_11(-)?] =dev-python/frozendict-2.3*[python_targets_python3_10(-)?,python_targets_python3_11(-)?] =dev-python/fido2-1*[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/intelhex[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/nkdfu[python_targets_python3_10(-)?,python_targets_python3_11(-)?] =dev-python/python-dateutil-2*[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pyusb[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/requests[python_targets_python3_10(-)?,python_targets_python3_11(-)?] =dev-python/spsdk-1.10*[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/tqdm[python_targets_python3_10(-)?,python_targets_python3_11(-)?] =dev-python/urllib3-1*[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/tlv8[python_targets_python3_10(-)?,python_targets_python3_11(-)?] =dev-python/typing-extensions-4*[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pyserial[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/protobuf-python-3.17.3[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_targets_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/Nitrokey/pynitrokey/archive/v0.4.36.tar.gz -> pynitrokey-0.4.36.gh.tar.gz https://github.com/Nitrokey/libnitrokey/archive/b34a473ae3b63adb229760d216a7d8ae7a40cbe9.tar.gz -> libnitrokey-b34a473ae3b63adb229760d216a7d8ae7a40cbe9.gh.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-r1	3c6cd0f418ba702c186a9865b85e704d	distutils-r1	87ebb7e1e8d4ac49be0a91406b443060	udev	eec0bbab06977f1cfc5597269c1fa152
+_md5_=00ba3f41b1443b1e12451626e0c59c4e
