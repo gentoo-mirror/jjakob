@@ -11,7 +11,7 @@ dev-python/hexdump 3.3: Dump binary data to hex format and restore from there
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
 dev-python/nkdfu 0.2: Python DFU tool for updating Nitrokey firmware
 dev-python/pylink-square 1.1.0: Python interface for the SEGGER J-Link
-dev-python/pyocd 0.35.0: ARM Cortex-M debugger for Python
+dev-python/pyocd 0.35.0-r1: ARM Cortex-M debugger for Python
 dev-python/sly-python 1.5: Sly Lex Yacc - Python implementation of lex and yacc
 dev-python/spsdk 1.10.0-r1: Open Source Secure Provisioning SDK for NXP MCU/MPU
 dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded data
