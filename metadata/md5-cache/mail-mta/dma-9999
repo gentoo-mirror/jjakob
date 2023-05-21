@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/bison sys-devel/flex >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=dev-libs/openssl
+DESCRIPTION=Dragonfly Mail Agent
+EAPI=7
+HOMEPAGE=https://github.com/corecode/dma
+INHERIT=git-r3
+IUSE=+mta
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-libs/openssl acct-user/mail acct-group/mail mta? ( !mail-mta/courier !mail-mta/esmtp !mail-mta/exim !mail-mta/mini-qmail !mail-mta/netqmail !mail-mta/nullmailer !mail-mta/postfix !mail-mta/qmail-ldap !mail-mta/sendmail !mail-mta/opensmtpd !<mail-mta/ssmtp-2.64-r2 !>=mail-mta/ssmtp-2.64-r2[mta] !mail-mta/msmtp[mta] )
+SLOT=0
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
+_md5_=8a586415277d43824c928ffdc7f28484

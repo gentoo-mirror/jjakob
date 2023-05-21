@@ -1,0 +1,21 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-misc/trezor:extra - Support setting the homescreen image
+app-misc/trezor:hidapi - Support setting up brand new firmware-less Trezor One
+app-misc/trezor:qt5 - Support PIN widgets PinMatrixWidget, PinButton
+dev-libs/openpace:go - Add support/bindings for the Go language
+dev-libs/openpace:java - Add support/bindings for the Java language
+dev-libs/openpace:python - Add support/bindings for the Python language
+dev-libs/openpace:ruby - Add support/bindings for the Ruby language
+dev-libs/opensc:ctapi - Use CT-API for accessing Smartcard hardware
+dev-libs/opensc:notify - Enable notifications
+dev-libs/opensc:openct - Use dev-libs/openct (and CT-API) for accessing Smartcard hardware
+dev-libs/opensc:pcsc-lite - Use sys-apps/pcsc-lite (and PC/SC API) for accessing Smartcard hardware
+dev-libs/opensc:secure-messaging - Enable secure messaging
+mail-mta/dma:mta - Enable this to install as system-wide MTA
+net-im/gomuks:encryption - Enable end-to-end encryption support via dev-libs/olm
+net-p2p/monero-gui:hw-wallet - Trezor support compilation
+net-p2p/monero-gui:password-strength-meter - Enable zxcvbn library for password strength
+net-p2p/monero-gui:qrcode - Enable webcam QR scanner

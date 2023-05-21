@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=x11-libs/libXinerama
+DESCRIPTION=Minimal Graphical IPV4 Ping Tool by CNLohr
+EAPI=7
+HOMEPAGE=https://github.com/cntools/cnping
+KEYWORDS=~amd64
+LICENSE=|| ( BSD MIT )
+RDEPEND=x11-libs/libXinerama
+SLOT=0
+SRC_URI=https://github.com/cntools/cnping/archive/6b89363e6b79ecbf612306d42a8ef94a5a2f756a.tar.gz -> cnping-1.0.0_p20210404.tar.gz https://github.com/cntools/rawdraw/archive/94c5c3bf7d025f08c545f7b289781b2c29d0b3e5.tar.gz -> rawdraw-94c5c3bf7d025f08c545f7b289781b2c29d0b3e5.tar.gz
+_md5_=113c299d16ce41f89830d88a69e17f25
