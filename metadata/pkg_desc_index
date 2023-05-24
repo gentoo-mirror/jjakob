@@ -1,4 +1,5 @@
 app-crypt/libnitrokey 3.8_p20230513: Support library for the Nitrokey
+app-crypt/opgpcard 0.3.0: Create VCard, QR code, printable business cards with OpenPGP key and fingerprint
 app-crypt/pynitrokey 0.4.36-r1 0.4.36_p20230512-r1: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
 app-misc/trezor 0.13.0: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/libusbsio 2.1.11: NXP LIBUSBSIO library
