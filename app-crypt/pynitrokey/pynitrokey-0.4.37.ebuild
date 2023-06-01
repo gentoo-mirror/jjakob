@@ -42,4 +42,3 @@ RDEPEND="
 # tests require a connected nitrokey device and will destroy the data on it!
 # it would be bad if the user was not expecting this.
 RESTRICT="test"
-#distutils_enable_tests pytest
