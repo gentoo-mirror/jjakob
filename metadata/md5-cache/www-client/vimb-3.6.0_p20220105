@@ -3,12 +3,12 @@ DEPEND=x11-libs/gtk+:3 >=net-libs/webkit-gtk-2.20.0:4 virtual/pkgconfig
 DESCRIPTION=a fast, lightweight, vim-like browser based on webkit
 EAPI=7
 HOMEPAGE=http://fanglingsu.github.io/vimb/
-INHERIT=savedconfig toolchain-funcs
+INHERIT=savedconfig
 IUSE=savedconfig savedconfig
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=x11-libs/gtk+:3 >=net-libs/webkit-gtk-2.20.0:4
 SLOT=3
 SRC_URI=https://github.com/fanglingsu/vimb/archive/abff254e142317e610fb91d7fed4c76d56f952c8.tar.gz -> vimb-3.6.0_p20220105.tar.gz
-_eclasses_=portability	a74d533f258f1f435be71312558c12f9	savedconfig	8b5f9d995a970e49cd427c55d5840285	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=5712de3f43b67c8954f9af32364050f8
+_eclasses_=portability	a74d533f258f1f435be71312558c12f9	savedconfig	8b5f9d995a970e49cd427c55d5840285
+_md5_=bbe6dbcabb5fbe96f8b5be06f62e5466
