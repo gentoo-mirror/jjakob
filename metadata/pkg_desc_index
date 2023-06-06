@@ -7,9 +7,12 @@ dev-libs/openpace 1.1.2: Cryptographic library for EAC version 2
 dev-libs/opensc 0.22.0: Libraries and applications to access smartcards
 dev-python/argparse-addons 0.12.0: Additional Python argparse types and actions
 dev-python/bincopy 17.14.5: Mangling of various binary files (Motorola S-Record, Intel HEX and bin)
+dev-python/bitbox02 6.2.0: Python library for bitbox02 communication
 dev-python/cmsis-pack-manager 0.5.2: Python manager for CMSIS-Pack index and cache with fast Rust backend
 dev-python/hexdump 3.3: Dump binary data to hex format and restore from there
+dev-python/hwi 2.2.1: Library and command line tool for interacting with hardware wallets
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
+dev-python/mnemonic 0.20: Ref. implementation of BIP-0039: Mnemonic code for generating deterministic keys
 dev-python/nkdfu 0.2: Python DFU tool for updating Nitrokey firmware
 dev-python/pylink-square 1.1.0: Python interface for the SEGGER J-Link
 dev-python/pyocd 0.35.0-r1: ARM Cortex-M debugger for Python
