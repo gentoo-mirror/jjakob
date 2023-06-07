@@ -4,7 +4,7 @@ app-crypt/pynitrokey 0.4.36-r1 0.4.36_p20230512-r1 0.4.37: A command line interf
 app-misc/trezor 0.13.0: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/libusbsio 2.1.11: NXP LIBUSBSIO library
 dev-libs/openpace 1.1.2: Cryptographic library for EAC version 2
-dev-libs/opensc 0.22.0: Libraries and applications to access smartcards
+dev-libs/opensc 0.23.0_p20230606: Libraries and applications to access smartcards
 dev-python/argparse-addons 0.12.0: Additional Python argparse types and actions
 dev-python/bincopy 17.14.5: Mangling of various binary files (Motorola S-Record, Intel HEX and bin)
 dev-python/bitbox02 6.2.0: Python library for bitbox02 communication
