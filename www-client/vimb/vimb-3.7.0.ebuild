@@ -1,16 +1,14 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-inherit savedconfig
+inherit savedconfig xdg
 
 DESCRIPTION='a fast, lightweight, vim-like browser based on webkit'
 HOMEPAGE='http://fanglingsu.github.io/vimb/'
 
-MY_COMMIT="66d9da4bb3cac8c0893e8b21543ff6457c9a3a83"
-SRC_URI="https://github.com/fanglingsu/vimb/archive/${MY_COMMIT}.tar.gz -> ${P}.tar.gz"
-S=${WORKDIR}/${PN}-${MY_COMMIT}
+SRC_URI="https://github.com/fanglingsu/vimb/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE='GPL-3'
 SLOT='3'
@@ -20,15 +18,22 @@ IUSE='savedconfig'
 RDEPEND='
 	x11-libs/gtk+:3
 	net-libs/webkit-gtk:4.1
+	net-libs/libsoup:3.0
+	virtual/libc
+	dev-libs/glib:2
 '
 DEPEND="
 	${RDEPEND}
+"
+BDEPEND="
 	virtual/pkgconfig
 "
 
 src_prepare() {
 	default
 	restore_config config.def.h
+
+	sed -i -e "/^version = /c\\version = ${PVR}${MY_COMMIT:+"+git${MY_COMMIT:0:8}"}" Makefile
 }
 
 src_compile() {
