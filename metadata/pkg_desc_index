@@ -23,7 +23,7 @@ dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded 
 mail-mta/dma 0.13a_p20230313: Dragonfly Mail Agent (jjakob fork with REWRITEFROM patch)
 net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr
 net-im/gomuks 0.3.0 0.3.0_p20230115: A terminal based Matrix client written in Go
-net-irc/quasselgrep 0_p20230610-r1: Tool for searching quassel logs from the commandline
+net-irc/quasselgrep 0_p20230610-r1 0_p20230717: Tool for searching quassel logs from the commandline
 virtual/mta 1-r2: Virtual for Message Transfer Agents
 www-client/vimb 3.6.0_p20230509 3.7.0: a fast, lightweight, vim-like browser based on webkit
 www-misc/wyebadblock 1.0.0_p20230212: An adblock extension for wyeb, also webkit2gtk browsers.
