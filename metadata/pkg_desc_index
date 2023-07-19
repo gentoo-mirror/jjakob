@@ -1,10 +1,10 @@
 app-crypt/libnitrokey 3.8_p20230413: Support library for the Nitrokey
 app-crypt/opgpcard 0.3.0: Create VCard, QR code, printable business cards with OpenPGP key and fingerprint
-app-crypt/pynitrokey 0.4.37 0.4.38: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
+app-crypt/pynitrokey 0.4.38: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
 app-crypt/scute 1.7.0_p20230424 1.7.0_p20230706: A PKCS #11 module for OpenPGP smartcards
 app-misc/trezor 0.13.0: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/libusbsio 2.1.11: NXP LIBUSBSIO library
-dev-libs/opensc 0.23.0_p20230606 0.23.0_p20230717: Libraries and applications to access smartcards
+dev-libs/opensc 0.23.0_p20230606 0.23.0_p20230717 0.23.0_p20230719: Libraries and applications to access smartcards
 dev-python/argparse-addons 0.12.0: Additional Python argparse types and actions
 dev-python/bincopy 17.14.5: Mangling of various binary files (Motorola S-Record, Intel HEX and bin)
 dev-python/bitbox02 6.2.0: Python library for bitbox02 communication
@@ -18,7 +18,7 @@ dev-python/nkdfu 0.2: Python DFU tool for updating Nitrokey firmware
 dev-python/pylink-square 1.1.0: Python interface for the SEGGER J-Link
 dev-python/pyocd 0.35.0-r1 0.35.1: ARM Cortex-M debugger for Python
 dev-python/sly-python 1.5: Sly Lex Yacc - Python implementation of lex and yacc
-dev-python/spsdk 1.10.0-r1 1.10.1: Open Source Secure Provisioning SDK for NXP MCU/MPU
+dev-python/spsdk 1.10.1: Open Source Secure Provisioning SDK for NXP MCU/MPU
 dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded data
 mail-mta/dma 0.13a_p20230313: Dragonfly Mail Agent (jjakob fork with REWRITEFROM patch)
 net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr
