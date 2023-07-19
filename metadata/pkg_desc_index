@@ -2,7 +2,7 @@ app-crypt/libnitrokey 3.8_p20230413: Support library for the Nitrokey
 app-crypt/opgpcard 0.3.0: Create VCard, QR code, printable business cards with OpenPGP key and fingerprint
 app-crypt/pynitrokey 0.4.38: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
 app-crypt/scute 1.7.0_p20230424 1.7.0_p20230706: A PKCS #11 module for OpenPGP smartcards
-app-misc/trezor 0.13.0: Python library and command-line client for Trezor Hardware Wallet
+app-misc/trezor 0.13.7: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/libusbsio 2.1.11: NXP LIBUSBSIO library
 dev-libs/opensc 0.23.0_p20230606 0.23.0_p20230717 0.23.0_p20230719: Libraries and applications to access smartcards
 dev-python/argparse-addons 0.12.0: Additional Python argparse types and actions
@@ -10,13 +10,14 @@ dev-python/bincopy 17.14.5: Mangling of various binary files (Motorola S-Record,
 dev-python/bitbox02 6.2.0: Python library for bitbox02 communication
 dev-python/click-aliases 1.0.1_p20230526: Add (multiple) aliases to a click_ group or command.
 dev-python/cmsis-pack-manager 0.5.2: Python manager for CMSIS-Pack index and cache with fast Rust backend
+dev-python/construct-classes 0.1.2: arse your binary structs into dataclasses
 dev-python/hexdump 3.3: Dump binary data to hex format and restore from there
 dev-python/hwi 2.2.1: Library and command line tool for interacting with hardware wallets
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
 dev-python/mnemonic 0.20: Ref. implementation of BIP-0039: Mnemonic code for generating deterministic keys
 dev-python/nkdfu 0.2: Python DFU tool for updating Nitrokey firmware
 dev-python/pylink-square 1.1.0: Python interface for the SEGGER J-Link
-dev-python/pyocd 0.35.0-r1 0.35.1: ARM Cortex-M debugger for Python
+dev-python/pyocd 0.35.1: ARM Cortex-M debugger for Python
 dev-python/sly-python 1.5: Sly Lex Yacc - Python implementation of lex and yacc
 dev-python/spsdk 1.10.1: Open Source Secure Provisioning SDK for NXP MCU/MPU
 dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded data
