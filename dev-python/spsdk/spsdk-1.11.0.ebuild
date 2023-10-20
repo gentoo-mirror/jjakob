@@ -11,7 +11,7 @@ DESCRIPTION="Open Source Secure Provisioning SDK for NXP MCU/MPU"
 HOMEPAGE="https://github.com/nxp-mcuxpresso/spsdk"
 
 MY_PN="spsdk"
-MY_COMMIT="1.10.1"
+MY_COMMIT="1.11.0"
 MY_P="${MY_PN}-${MY_COMMIT}"
 SRC_URI="https://github.com/nxp-mcuxpresso/spsdk/archive/${MY_COMMIT}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${MY_P}"
@@ -50,13 +50,15 @@ RDEPEND="
 	<dev-python/oscrypto-1.4[$PYTHON_USEDEP]
 	>=dev-python/pycryptodome-3.9.3[$PYTHON_USEDEP]
 	=dev-python/pycryptodome-3*[$PYTHON_USEDEP]
-	>=dev-python/pylink-square-0.8.2[$PYTHON_USEDEP]
+	>=dev-python/pylink-square-1.0[$PYTHON_USEDEP]
+	<dev-python/pylink-square-1.2[$PYTHON_USEDEP]
 	=dev-python/pyocd-0.35*[$PYTHON_USEDEP]
 	>=dev-python/pyserial-3.1[$PYTHON_USEDEP]
 	<dev-python/pyserial-3.6[$PYTHON_USEDEP]
 	=dev-python/ruamel-yaml-0.17*[$PYTHON_USEDEP]
 	dev-python/sly-python[$PYTHON_USEDEP]
 	=dev-python/typing-extensions-4*[$PYTHON_USEDEP]
+	dev-python/importlib-metadata[$PYTHON_USEDEP]
 "
 BDEPEND="
 	test? (
@@ -64,7 +66,7 @@ BDEPEND="
 	)
 "
 
-PATCHES="${FILESDIR}/patches_1.10.1"
+PATCHES="${FILESDIR}/patches_1.11.0"
 
 distutils_enable_tests pytest
 
@@ -74,6 +76,22 @@ distutils_enable_tests pytest
 #	dev-python/sphinx-rtd-theme \
 #	dev-python/sphinx-autodoc-typehints \
 #	dev-python/sphinx-click
+
+python_prepare_all(){
+	sed -i -e "/import /iimport pytest" \
+		tests/dk6/test_dk6_tools.py || die
+	sed -i -e \
+		"/def test_cli_listdev():/i@pytest.mark.xfail(reason='Depends on pyftdi')" \
+		tests/dk6/test_dk6_tools.py || die
+	sed -i -e \
+		"/def test_cli_erase():/i@pytest.mark.xfail(reason='Depends on pyftdi')" \
+		tests/dk6/test_dk6_tools.py || die
+	sed -i -e \
+		"/def test_cli_read():/i@pytest.mark.xfail(reason='Depends on pyftdi')" \
+		tests/dk6/test_dk6_tools.py || die
+
+	distutils-r1_python_prepare_all
+}
 
 python_install_all(){
 	use examples && dodoc -r examples
