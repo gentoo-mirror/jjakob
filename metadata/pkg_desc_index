@@ -1,6 +1,6 @@
 app-crypt/libnitrokey 3.8_p20230413: Support library for the Nitrokey
 app-crypt/opgpcard 0.3.0: Create VCard, QR code, printable business cards with OpenPGP key and fingerprint
-app-crypt/pynitrokey 0.4.40_p20230926 0.4.43: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
+app-crypt/pynitrokey 0.4.40_p20230926 0.4.43 0.4.44: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
 app-crypt/scute 1.7.0_p20230424 1.7.0_p20230706: A PKCS #11 module for OpenPGP smartcards
 app-misc/trezor 0.13.7: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/libfx2 0.11: chip support package for Cypress EZ-USB FX2 series microcontrollers
