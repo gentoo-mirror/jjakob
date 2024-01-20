@@ -22,7 +22,7 @@ dev-python/pylink-square 1.1.0: Python interface for the SEGGER J-Link
 dev-python/pyocd 0.35.1: ARM Cortex-M debugger for Python
 dev-python/simple-rlp 0.1.3_pre: RLP (Recursive Length Prefix) - Encode and decode data structures
 dev-python/sly-python 1.5: Sly Lex Yacc - Python implementation of lex and yacc
-dev-python/spsdk 1.10.1 1.11.0: Open Source Secure Provisioning SDK for NXP MCU/MPU
+dev-python/spsdk 1.11.0: Open Source Secure Provisioning SDK for NXP MCU/MPU
 dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded data
 mail-mta/dma 0.13a_p20230313: Dragonfly Mail Agent (jjakob fork with REWRITEFROM patch)
 net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr
