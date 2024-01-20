@@ -1,4 +1,4 @@
-BDEPEND=virtual/pkgconfig doc? ( app-doc/doxygen )
+BDEPEND=virtual/pkgconfig doc? ( app-text/doxygen )
 DEFINED_PHASES=configure install postinst postrm preinst prepare
 DEPEND=dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5[sqlite] dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 kde-frameworks/kcoreaddons:5 kde-frameworks/kwidgetsaddons:5
 DESCRIPTION=Qt5 application to design electric diagrams
@@ -13,4 +13,4 @@ RDEPEND=dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 
 SLOT=0
 SRC_URI=https://github.com/qelectrotech/qelectrotech-source-mirror/archive/3d6ab1b0503c23d07a6d5fc423a2b840b1845e9c.tar.gz -> qelectrotech-0.100_p20231120.gh.tar.gz https://github.com/itay-grudev/SingleApplication/archive/8c48163c4d3fbba603cfe8a5b94046c9dad71825.tar.gz -> qelectrotech_submod_SingleApplication_8c48163c4d3fbba603cfe8a5b94046c9dad71825.tar.gz https://github.com/qelectrotech/qelectrotech-elements/archive/c674a866e727bd4d23674d49f642ba65b00e84c3.tar.gz -> qelectrotech_submod_elements_c674a866e727bd4d23674d49f642ba65b00e84c3.tar.gz https://github.com/zeux/pugixml/archive/2e357d19a3228c0a301727aac6bea6fecd982d21.tar.gz -> qelectrotech_submod_pugixml_2e357d19a3228c0a301727aac6bea6fecd982d21.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
-_md5_=d0c8ca9dd5cdad40f3300671e8d70f9b
+_md5_=02ef1410572f39eda8dfad79c63f2139
