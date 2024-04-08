@@ -13,7 +13,7 @@ dev-python/click-aliases 1.0.1_p20230526: Add (multiple) aliases to a click_ gro
 dev-python/cmsis-pack-manager 0.5.2: Python manager for CMSIS-Pack index and cache with fast Rust backend
 dev-python/construct-classes 0.1.2: arse your binary structs into dataclasses
 dev-python/hexdump 3.3: Dump binary data to hex format and restore from there
-dev-python/hwi 2.2.1: Library and command line tool for interacting with hardware wallets
+dev-python/hwi 2.2.1 3.0.0: Library and command line tool for interacting with hardware wallets
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
 dev-python/mnemonic 0.20: Ref. implementation of BIP-0039: Mnemonic code for generating deterministic keys
 dev-python/nethsm 1.0.0: Python client for NitroKey NetHSM
