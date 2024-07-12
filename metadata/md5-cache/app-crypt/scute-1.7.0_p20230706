@@ -12,5 +12,5 @@ RDEPEND=>=dev-libs/libgpg-error-1.38 >=dev-libs/libassuan-2.5 test? ( >=app-cryp
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://git.gnupg.org/cgi-bin/gitweb.cgi?p=scute.git;a=snapshot;h=bc53a3e54f6a66e76888b370906d53f933d41f91;sf=tgz -> scute-1.7.0_p20230706.tar.gz
-_eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	fb7c3cd829c27448f5a05212de2bf499
+_eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	d12ccbad07b44642a75ac97a3334d8e0
 _md5_=3164f8e1eef280e2006f95249791cb7a
