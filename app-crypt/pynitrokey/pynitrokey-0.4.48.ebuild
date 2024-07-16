@@ -1,10 +1,10 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=flit
-PYTHON_COMPAT=( python3_{10..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 inherit distutils-r1
 
 DESCRIPTION="A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM"
@@ -16,6 +16,7 @@ LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64" # x86 missing in spsdk
 
+# depends on spsdk 2.1 but that doesn't support py3.12 so hope 2.2 works
 RDEPEND="
 	>=dev-python/certifi-14.5.15[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
@@ -31,7 +32,8 @@ RDEPEND="
 	=dev-python/python-dateutil-2*[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	=dev-python/spsdk-1.11*[${PYTHON_USEDEP}]
+	>=dev-python/spsdk-2.1[${PYTHON_USEDEP}]
+	<dev-python/spsdk-2.3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/tlv8[${PYTHON_USEDEP}]
 	=dev-python/typing-extensions-4*[${PYTHON_USEDEP}]
@@ -40,7 +42,8 @@ RDEPEND="
 	app-crypt/libnitrokey
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
-	=dev-python/nethsm-1*[${PYTHON_USEDEP}]
+	>=dev-python/nethsm-1.1[${PYTHON_USEDEP}]
+	<dev-python/nethsm-2[${PYTHON_USEDEP}]
 "
 
 # tests require a connected nitrokey device and will destroy the data on it!

@@ -1,8 +1,9 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..11} )
+# does not support 3.12 officially
+PYTHON_COMPAT=( python3_{10..12} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
@@ -17,8 +18,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="doc examples"
 
+# depends on capstone 4 but seems to work with 5 too
 RDEPEND="
-	=dev-libs/capstone-4*[python]
+	>=dev-libs/capstone-4[python]
+	<dev-libs/capstone-6[python]
 	>=dev-python/cmsis-pack-manager-0.5.2[$PYTHON_USEDEP]
 	=dev-python/cmsis-pack-manager-0*[$PYTHON_USEDEP]
 	=dev-python/colorama-0*[$PYTHON_USEDEP]
