@@ -1,6 +1,6 @@
 app-crypt/libnitrokey 3.8_p20230413: Support library for the Nitrokey
 app-crypt/opgpcard 0.3.0: Create VCard, QR code, printable business cards with OpenPGP key and fingerprint
-app-crypt/pynitrokey 0.4.45 0.4.46: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
+app-crypt/pynitrokey 0.4.46 0.4.48: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
 app-crypt/scute 1.7.0_p20230424 1.7.0_p20230706: A PKCS #11 module for OpenPGP smartcards
 app-misc/trezor 0.13.7: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/libfx2 0.11: chip support package for Cypress EZ-USB FX2 series microcontrollers
@@ -16,13 +16,13 @@ dev-python/hexdump 3.3: Dump binary data to hex format and restore from there
 dev-python/hwi 2.2.1 3.0.0: Library and command line tool for interacting with hardware wallets
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
 dev-python/mnemonic 0.20: Ref. implementation of BIP-0039: Mnemonic code for generating deterministic keys
-dev-python/nethsm 1.0.0: Python client for NitroKey NetHSM
+dev-python/nethsm 1.0.0 1.1.0: Python client for NitroKey NetHSM
 dev-python/nkdfu 0.2: Python DFU tool for updating Nitrokey firmware
 dev-python/pylink-square 1.1.0: Python interface for the SEGGER J-Link
-dev-python/pyocd 0.35.1: ARM Cortex-M debugger for Python
+dev-python/pyocd 0.36.0: ARM Cortex-M debugger for Python
 dev-python/simple-rlp 0.1.3_pre: RLP (Recursive Length Prefix) - Encode and decode data structures
 dev-python/sly-python 1.5: Sly Lex Yacc - Python implementation of lex and yacc
-dev-python/spsdk 1.11.0 2.1.1_p20240405: Open Source Secure Provisioning SDK for NXP MCU/MPU
+dev-python/spsdk 2.1.1_p20240405 2.2.0: Open Source Secure Provisioning SDK for NXP MCU/MPU
 dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded data
 mail-mta/dma 0.13a_p20230313: Dragonfly Mail Agent (jjakob fork with REWRITEFROM patch)
 net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr

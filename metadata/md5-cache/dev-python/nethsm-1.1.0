@@ -1,15 +1,16 @@
 BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/flit-core-3.9.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Python DFU tool for updating Nitrokey firmware
+DESCRIPTION=Python client for NitroKey NetHSM
 EAPI=8
-HOMEPAGE=https://github.com/Nitrokey/nkdfu
+HOMEPAGE=https://github.com/Nitrokey/nethsm-sdk-py
 INHERIT=distutils-r1
 IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
 KEYWORDS=~amd64
-LICENSE=GPL-2
-RDEPEND=>=dev-python/intelhex-2.3.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/libusb1-1.9.3[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/python-fire[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/tqdm[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+LICENSE=Apache-2.0
+RDEPEND=dev-python/certifi[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/cryptography-41[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/python-dateutil[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] =dev-python/typing-extensions-4*[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] =dev-python/urllib3-2*[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/Nitrokey/nkdfu/archive/refs/tags/v0.2.tar.gz -> nkdfu-0.2.gh.tar.gz
+SRC_URI=https://github.com/Nitrokey/nethsm-sdk-py/archive/refs/tags/v1.1.0.tar.gz -> nethsm-1.1.0.gh.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	python-r1	428f5c53276c2adc06a89108fc2f9f46	distutils-r1	f11e1bc907da246e941fbae648327823
-_md5_=b42d58fa5e1e1c02483f1eb29b3d94f1
+_md5_=74c91b6125ad7c19b020134900d6a308
