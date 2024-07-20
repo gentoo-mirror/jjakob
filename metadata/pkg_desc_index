@@ -26,7 +26,7 @@ dev-python/spsdk 2.1.1_p20240405 2.2.0: Open Source Secure Provisioning SDK for 
 dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded data
 mail-mta/dma 0.13a_p20230313: Dragonfly Mail Agent (jjakob fork with REWRITEFROM patch)
 net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr
-net-im/gomuks 0.3.0 0.3.0_p20230115 0.3.0_p20230710: A terminal based Matrix client written in Go
+net-im/gomuks 0.3.1: A terminal based Matrix client written in Go
 net-irc/quasselgrep 0_p20230610-r1 0_p20230717 0.2: Tool for searching quassel logs from the commandline
 sci-electronics/qelectrotech 0.100_p20231120: Qt5 application to design electric diagrams
 virtual/mta 1-r2: Virtual for Message Transfer Agents
