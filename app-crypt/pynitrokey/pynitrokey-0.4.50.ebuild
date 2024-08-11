@@ -42,7 +42,7 @@ RDEPEND="
 	app-crypt/libnitrokey
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
-	>=dev-python/nethsm-1.1[${PYTHON_USEDEP}]
+	>=dev-python/nethsm-1.2.1[${PYTHON_USEDEP}]
 	<dev-python/nethsm-2[${PYTHON_USEDEP}]
 "
 
