@@ -12,5 +12,5 @@ LICENSE=GPL-3
 RDEPEND=x11-libs/gtk+:3 net-libs/webkit-gtk:4.1 net-libs/libsoup:3.0 virtual/libc dev-libs/glib:2
 SLOT=3
 SRC_URI=https://github.com/fanglingsu/vimb/archive/087bf7a908847c59d22fb9d8504c17e0354b5a85.tar.gz -> vimb-3.6.0_p20230509.gh.tar.gz
-_eclasses_=portability	01f478fa22185b3606f2d4adea4675ed	savedconfig	b9131abe556ad2ea96c01b06d658d363	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	8d7d90c01b1b1c2602dab6fc6b177097
+_eclasses_=portability	01f478fa22185b3606f2d4adea4675ed	savedconfig	b9131abe556ad2ea96c01b06d658d363	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	854eae304447322625df5991e20ed18f
 _md5_=310b1faaa5d3187f4de9435ae9d2e215
