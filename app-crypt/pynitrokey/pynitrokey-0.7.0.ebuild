@@ -14,11 +14,10 @@ SRC_URI="https://github.com/Nitrokey/${PN}/archive/v${PV}.tar.gz -> ${P}.gh.tar.
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-KEYWORDS="~amd64" # x86 missing in spsdk
+KEYWORDS="~amd64"
+IUSE="piv"
 
-# depends on spsdk 2.1 but that doesn't support py3.12 so hope 2.2 works
 RDEPEND="
-	>=dev-python/certifi-14.5.15[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
 		dev-python/cffi[${PYTHON_USEDEP}]
 	' 'python*')
@@ -28,22 +27,19 @@ RDEPEND="
 	dev-python/ecdsa[${PYTHON_USEDEP}]
 	=dev-python/fido2-1*[${PYTHON_USEDEP}]
 	dev-python/intelhex[${PYTHON_USEDEP}]
+	>=dev-python/nitrokey-sdk-py-0.2.1[${PYTHON_USEDEP}]
+	<dev-python/nitrokey-sdk-py-0.3[${PYTHON_USEDEP}]
 	dev-python/nkdfu[${PYTHON_USEDEP}]
-	=dev-python/python-dateutil-2*[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	>=dev-python/spsdk-2.1[${PYTHON_USEDEP}]
-	<dev-python/spsdk-2.3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/tlv8[${PYTHON_USEDEP}]
-	=dev-python/typing-extensions-4*[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	>=dev-python/protobuf-python-3.17.3[${PYTHON_USEDEP}]
 	app-crypt/libnitrokey
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
-	>=dev-python/nethsm-1.2[${PYTHON_USEDEP}]
+	>=dev-python/nethsm-1.2.1[${PYTHON_USEDEP}]
 	<dev-python/nethsm-2[${PYTHON_USEDEP}]
+	piv? ( dev-python/pyscard[${PYTHON_USEDEP}] )
 "
 
 # tests require a connected nitrokey device and will destroy the data on it!
