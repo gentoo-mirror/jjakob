@@ -1,4 +1,4 @@
-BDEPEND=>=app-portage/elt-patches-20240116 sys-devel/gnuconfig =dev-build/automake-1.16* >=dev-build/autoconf-2.71-r6:2.71 >=dev-build/libtool-2.4.7-r3
+BDEPEND=>=app-portage/elt-patches-20240116 sys-devel/gnuconfig dev-build/automake:1.16 dev-build/autoconf:2.5 >=dev-build/libtool-2.4.7-r3
 DEFINED_PHASES=configure install prepare
 DEPEND=>=dev-libs/libgpg-error-1.38 >=dev-libs/libassuan-2.5
 DESCRIPTION=A PKCS #11 module for OpenPGP smartcards
@@ -12,5 +12,5 @@ RDEPEND=>=dev-libs/libgpg-error-1.38 >=dev-libs/libassuan-2.5 test? ( >=app-cryp
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://git.gnupg.org/cgi-bin/gitweb.cgi?p=scute.git;a=snapshot;h=bc53a3e54f6a66e76888b370906d53f933d41f91;sf=tgz -> scute-1.7.0_p20230706.tar.gz
-_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	libtool	6b28392a775f807c8be5fc7ec9a605b9	autotools	7d91cc798a8afd8f4e0c6e9587296ebe
+_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	libtool	6b28392a775f807c8be5fc7ec9a605b9	autotools	03ea4e0b6b685afdc980f00a43ea5d12
 _md5_=3164f8e1eef280e2006f95249791cb7a
