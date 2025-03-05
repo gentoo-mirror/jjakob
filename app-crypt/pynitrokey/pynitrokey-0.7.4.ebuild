@@ -1,10 +1,10 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=flit
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{11..13} )
 inherit distutils-r1
 
 DESCRIPTION="A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM"
@@ -22,10 +22,13 @@ RDEPEND="
 		dev-python/cffi[${PYTHON_USEDEP}]
 	' 'python*')
 	dev-python/cffi[${PYTHON_USEDEP}]
-	=dev-python/click-8*[${PYTHON_USEDEP}]
-	>=dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.5[${PYTHON_USEDEP}]
+	<dev-python/click-9[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-43[${PYTHON_USEDEP}]
+	<dev-python/cryptography-45[${PYTHON_USEDEP}]
 	dev-python/ecdsa[${PYTHON_USEDEP}]
-	=dev-python/fido2-1*[${PYTHON_USEDEP}]
+	>=dev-python/fido2-1.2[${PYTHON_USEDEP}]
+	<dev-python/fido2-2[${PYTHON_USEDEP}]
 	dev-python/intelhex[${PYTHON_USEDEP}]
 	>=dev-python/nitrokey-sdk-py-0.2.1[${PYTHON_USEDEP}]
 	<dev-python/nitrokey-sdk-py-0.3[${PYTHON_USEDEP}]
@@ -35,7 +38,8 @@ RDEPEND="
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/tlv8[${PYTHON_USEDEP}]
 	app-crypt/libnitrokey
-	dev-python/click-aliases[${PYTHON_USEDEP}]
+	>=dev-python/click-aliases-1.0.5[${PYTHON_USEDEP}]
+	<dev-python/click-aliases-2[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	>=dev-python/nethsm-1.2.1[${PYTHON_USEDEP}]
 	<dev-python/nethsm-2[${PYTHON_USEDEP}]
