@@ -17,6 +17,7 @@ dev-python/nkdfu 0.2: Python DFU tool for updating Nitrokey firmware
 dev-python/simple-rlp 0.1.3_pre: RLP (Recursive Length Prefix) - Encode and decode data structures
 dev-python/tlv8 0.10.0: Python module to handle type-length-value (TLV) encoded data
 mail-mta/dma 0.13a_p20230313: Dragonfly Mail Agent (jjakob fork with REWRITEFROM patch)
+media-sound/jmpx 2.1.0_p20231006: FM Stereo encoder with RDS support
 net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr
 net-im/gomuks 0.3.1: A terminal based Matrix client written in Go
 net-irc/quasselgrep 0.2: Tool for searching quassel logs from the commandline

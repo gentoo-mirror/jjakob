@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst postrm prepare
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtdbus:5 dev-qt/qtwidgets:5 media-libs/opus virtual/jack
+DESCRIPTION=FM Stereo encoder with RDS support
+EAPI=8
+HOMEPAGE=https://github.com/jontio/JMPX
+INHERIT=qmake-utils desktop xdg-utils
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtdbus:5 dev-qt/qtwidgets:5 media-libs/opus virtual/jack
+SLOT=0
+SRC_URI=https://github.com/jontio/JMPX/archive/c8a3c5f1fd04577a9b7ce3fb0bf675831f86af96.tar.gz -> jmpx-2.1.0_p20231006.gh.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=57da3caa22356d4396fb25f5f373e162
