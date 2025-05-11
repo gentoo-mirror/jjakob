@@ -2,7 +2,7 @@ app-crypt/libnitrokey 3.8_p20230413 3.8_p20230413-r1: Support library for the Ni
 app-crypt/nitrokey-app2 2.3.3 9999: Graphical application to manage Nitrokey 3 devices
 app-crypt/nitrokey-udev-rules 1.0.0_p20240102: udev rules for Nitrokey devices
 app-crypt/opgpcard 0.3.0: Create VCard, QR code, printable business cards with OpenPGP key and fingerprint
-app-crypt/pynitrokey 0.7.4 0.8.1: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
+app-crypt/pynitrokey 0.7.4 0.8.1 0.8.3: A command line interface for the Nitrokey FIDO2, Start, 3 and NetHSM
 app-crypt/scute 1.7.0_p20230424 1.7.0_p20230706: A PKCS #11 module for OpenPGP smartcards
 app-misc/trezor 0.13.7: Python library and command-line client for Trezor Hardware Wallet
 dev-libs/libfx2 0.11: chip support package for Cypress EZ-USB FX2 series microcontrollers
@@ -11,7 +11,7 @@ dev-python/construct-classes 0.1.2: arse your binary structs into dataclasses
 dev-python/hwi 3.0.0: Library and command line tool for interacting with hardware wallets
 dev-python/libusb1 3.0.0: Pure-python wrapper for libusb-1.0
 dev-python/mnemonic 0.20: Ref. implementation of BIP-0039: Mnemonic code for generating deterministic keys
-dev-python/nethsm 1.2.1 1.3.0: Python client for NitroKey NetHSM
+dev-python/nethsm 1.2.1 1.3.0 1.4.0: Python client for NitroKey NetHSM
 dev-python/nitrokey-sdk-py 0.2.4 0.3.1: Nitrokey Python SDK
 dev-python/nkdfu 0.2: Python DFU tool for updating Nitrokey firmware
 dev-python/simple-rlp 0.1.3_pre: RLP (Recursive Length Prefix) - Encode and decode data structures
