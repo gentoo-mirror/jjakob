@@ -41,7 +41,7 @@ RDEPEND="
 	>=dev-python/click-aliases-1.0.5[${PYTHON_USEDEP}]
 	<dev-python/click-aliases-2[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
-	>=dev-python/nethsm-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/nethsm-1.4.0[${PYTHON_USEDEP}]
 	<dev-python/nethsm-2[${PYTHON_USEDEP}]
 	piv? ( dev-python/pyscard[${PYTHON_USEDEP}] )
 "
