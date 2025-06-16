@@ -1,15 +1,13 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-WANT_AUTOCONF="2.5" # 2.61 but eclass only understands a couple predefined values
-WANT_AUTOMAKE="1.16"
 inherit autotools
 
 DESCRIPTION="A PKCS #11 module for OpenPGP smartcards"
 HOMEPAGE="http://www.scute.org/"
-MY_COMMIT="bc53a3e54f6a66e76888b370906d53f933d41f91"
+MY_COMMIT="512ed39637a769ffac574e7d6a3053b1a3898616"
 SRC_URI="https://git.gnupg.org/cgi-bin/gitweb.cgi?p=scute.git;a=snapshot;h=${MY_COMMIT};sf=tgz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-${MY_COMMIT:0:7}"
 
@@ -28,8 +26,6 @@ DEPEND="
 RDEPEND="
 	${DEPEND}
 	test? ( ${TESTS_DEPEND} )"
-
-PATCHES="${FILESDIR}"
 
 src_prepare() {
 	default
