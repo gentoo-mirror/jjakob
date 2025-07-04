@@ -8,6 +8,7 @@ app-misc/trezor 0.13.7: Python library and command-line client for Trezor Hardwa
 dev-libs/libfx2 0.11: chip support package for Cypress EZ-USB FX2 series microcontrollers
 dev-python/click-aliases 1.0.1_p20230526: Add (multiple) aliases to a click_ group or command.
 dev-python/construct-classes 0.1.2: arse your binary structs into dataclasses
+dev-python/fido2 1.2.0-r1: Python based FIDO 2.0 library
 dev-python/hwi 3.0.0: Library and command line tool for interacting with hardware wallets
 dev-python/mnemonic 0.20: Ref. implementation of BIP-0039: Mnemonic code for generating deterministic keys
 dev-python/nethsm 1.2.1 1.3.0 1.4.0: Python client for NitroKey NetHSM
@@ -20,6 +21,7 @@ media-sound/jmpx 2.1.0_p20231006: FM Stereo encoder with RDS support
 net-analyzer/cnping 1.0.0_p20210404 1.0.0_p20230127: Minimal Graphical IPV4 Ping Tool by CNLohr
 net-im/gomuks 0.3.1: A terminal based Matrix client written in Go
 net-irc/quasselgrep 0.2: Tool for searching quassel logs from the commandline
+net-libs/webkit-gtk 2.46.6-r410: Open source web browser engine
 sci-electronics/micoscope 1.1_p182: Use your pc sound card as an oscilloscope, function-generator, and UART tester.
 sci-electronics/qelectrotech 0.100_p20231120: Qt5 application to design electric diagrams
 virtual/mta 1-r2: Virtual for Message Transfer Agents

@@ -12,3 +12,6 @@ dev-libs/openpace:python - Add support/bindings for the Python language
 dev-libs/openpace:ruby - Add support/bindings for the Ruby language
 mail-mta/dma:mta - Enable this to install as system-wide MTA
 net-im/gomuks:encryption - Enable end-to-end encryption support via dev-libs/olm
+net-libs/webkit-gtk:examples - Install the MiniBrowser example application
+net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
+net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
