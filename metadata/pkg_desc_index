@@ -1,4 +1,4 @@
-app-crypt/libnitrokey 3.8_p20230413 3.8_p20230413-r1: Support library for the Nitrokey
+app-crypt/libnitrokey 3.8_p20230413-r1: Support library for the Nitrokey
 app-crypt/nitrokey-app2 2.3.3 9999: Graphical application to manage Nitrokey 3 devices
 app-crypt/nitrokey-udev-rules 1.0.0_p20240102: udev rules for Nitrokey devices
 app-crypt/opgpcard 0.3.0: Create VCard, QR code, printable business cards with OpenPGP key and fingerprint
