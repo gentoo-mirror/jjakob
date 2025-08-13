@@ -10,4 +10,4 @@ RDEPEND=virtual/udev !<app-crypt/libnitrokey-3.8_p20230413-r1
 SLOT=0
 SRC_URI=https://github.com/Nitrokey/nitrokey-udev-rules/archive/5ffac5d0d9dc776f241a9553be5e92656585bd53.tar.gz -> nitrokey-udev-rules-1.0.0_p20240102.gh.tar.gz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	udev	f3d9a4376ebd22131726a68e1a0a058f
-_md5_=094e681255ff3a312b1976a04ee32ce9
+_md5_=38d5b979e6f3f5de1d03a0fa5cc1776d
