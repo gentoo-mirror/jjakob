@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=poetry
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{12..13} )
 
 inherit distutils-r1
 
@@ -26,8 +26,8 @@ fi
 
 RDEPEND="
 	>=dev-python/pyside-6.6.0[gui,uitools,widgets,${PYTHON_USEDEP}]
-	>=dev-python/nitrokey-sdk-py-0.2.3[${PYTHON_USEDEP}]
-	<dev-python/nitrokey-sdk-py-0.3[${PYTHON_USEDEP}]
+	>=dev-python/nitrokey-sdk-py-0.3.2[${PYTHON_USEDEP}]
+	<dev-python/nitrokey-sdk-py-0.4[${PYTHON_USEDEP}]
 	>=dev-python/usb-monitor-1.21[${PYTHON_USEDEP}]
 	<dev-python/usb-monitor-2[${PYTHON_USEDEP}]
 	dev-python/fido2[${PYTHON_USEDEP}]
