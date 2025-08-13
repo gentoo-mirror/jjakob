@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=x11-libs/gtk+:3 net-libs/webkit-gtk:4.1 dev-libs/glib:2
 SLOT=4.1
 SRC_URI=https://github.com/jun7/wyebadblock/archive/529a5eedafacca9cd4ba78bf15d3a2bb565b821a.tar.gz -> wyebadblock-1.0.0_p20230212.tar.gz
-_md5_=619e371c3b227c77efe5e8b9c5513449
+_md5_=b6c1a08402ddabb48cb236021c55e700

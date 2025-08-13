@@ -10,4 +10,4 @@ LICENSE=BSD
 RDEPEND=dev-libs/openssl acct-user/mail acct-group/mail mta? ( !mail-mta/courier !mail-mta/esmtp !mail-mta/exim !mail-mta/netqmail !mail-mta/notqmail !mail-mta/nullmailer !mail-mta/postfix !mail-mta/sendmail !mail-mta/opensmtpd[mta] !mail-mta/ssmtp[mta] !mail-mta/msmtp[mta] )
 SLOT=0
 SRC_URI=https://github.com/jjakob/dma/archive/7db329c93a7c17805231deca9fca9a52be245bf1.tar.gz -> dma-0.13a_p20230313.gh.tar.gz
-_md5_=bf3a82d4124f65b5cdcdd4190011ca43
+_md5_=315acce34711fa28d4dd80e415984b95
