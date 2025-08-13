@@ -3,8 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
-DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{11..14} )
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1
 
 DESCRIPTION="Ref. implementation of BIP-0039: Mnemonic code for generating deterministic keys"
