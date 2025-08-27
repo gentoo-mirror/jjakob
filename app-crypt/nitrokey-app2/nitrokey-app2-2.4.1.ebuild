@@ -26,9 +26,8 @@ fi
 
 RDEPEND="
 	>=dev-python/pyside-6.6.0[gui,uitools,widgets,${PYTHON_USEDEP}]
-	>=dev-python/nitrokey-sdk-py-0.3.2[${PYTHON_USEDEP}]
-	<dev-python/nitrokey-sdk-py-0.4[${PYTHON_USEDEP}]
+	=dev-python/nitrokey-sdk-py-0.4*[${PYTHON_USEDEP}]
 	>=dev-python/usb-monitor-1.21[${PYTHON_USEDEP}]
 	<dev-python/usb-monitor-2[${PYTHON_USEDEP}]
-	dev-python/fido2[${PYTHON_USEDEP}]
+	=dev-python/fido2-2*[${PYTHON_USEDEP}]
 "
