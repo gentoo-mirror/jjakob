@@ -30,5 +30,5 @@ net-libs/webkit-gtk 2.46.6-r410: Open source web browser engine
 sci-electronics/micoscope 1.1_p182: Use your pc sound card as an oscilloscope, function-generator, and UART tester.
 sci-electronics/qelectrotech 0.100_p20231120: Qt5 application to design electric diagrams
 virtual/mta 1-r2: Virtual for Message Transfer Agents
-www-client/vimb 3.7.0 3.7.0_p20250430: a fast, lightweight, vim-like browser based on webkit
+www-client/vimb 3.7.0 3.7.0_p20250430 3.7.0_p20250922: a fast, lightweight, vim-like browser based on webkit
 www-misc/wyebadblock 1.0.0_p20230212: An adblock extension for wyeb, also webkit2gtk browsers.
